@@ -15,4 +15,7 @@
          Leave 1 if you have mA, put 1000 if you have µA -->
     <integer name="config_currentInfoDivider" translatable="false">1</integer>
 
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">false</bool>
+
 </resources>
