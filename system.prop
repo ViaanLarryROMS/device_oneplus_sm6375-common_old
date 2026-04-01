@@ -24,6 +24,12 @@ DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
+# Enable or disable ScrollOptimizer globally
+persist.sys.perf.scroll_opt = true
+
+# Heavy app handling mode
+persist.sys.perf.scroll_opt.heavy_app = 2
+
 # Time
 persist.timed.enable=true
 
